@@ -1,0 +1,71 @@
+ID,Name,Type,Weight,Fat,Cal,Ingredients
+0,AlooGosht,Healthy,200,90,390,Potatoes;Tomatoes;Onions;Lamb
+1,Appam(1),Breakfast,40,10,20,Rice;Water;Salt
+2,aviyal(1),Side,200,120,52,Veggies;Coconut;Curd
+3,AvocadoEgg Rolls,Mexican,300,300,700,Avocados;Cilantro;Onions;Egg roll wrappers;Eggs
+4,BabaGanoush,Arabian,400,190,500,Eggplants;Tahini;Lemon juice;Olive oil
+5,Barfi(2),Sweet,200,150,56,Flour;sugar;oil
+6,BatataHarra,Healthy,800,500,1080,Potatoes;Peppers;Olive oil;Garlic;Coriander
+7,bhelpuri(3),Snack,100,20,30,Bhel;Veggies ;Salt
+8,biriyani(2),lunch,1000,400,300,Rice;Ghee;Veggies
+9,BuckwheatNoodleSalad,Healthy,700,180,400,Buckwheat noodles;Pepper;Cilantro
+10,CabbageThoran,Lunch,50,10,20,Cabbage;Turmeric;Salt
+11,CarrotCake,Snack,700,140,950,Flour;Eggs;Sugar;Carrots;Almonds;Baking powder
+12,ChemmenUlarthiyathu(1),Side,600,200,300,Prawns;Chilli;Oil
+13,ChemmenUlarthiyathu,Side,600,200,300,Prawns;Chilli;Oil
+14,chicken_fry(1),Snack,400,300,50,Chicken;Oil;Spices
+15,ChickenBiryani,Indian,600,800,1800,Rice;Chicken;Butter
+16,Coddle,Healthy,300,200,700,Bangers;Rashers;Potatoes;Onions;Parsley;Pepper;Salt
+17,Cutlet,Snack,200,50,30,Beef;Potato;Spices
+18,Dolma,Healthy,150,50,300,Grape leaves;Rice;Lemon juice;Cucumber
+19,Dosa(1),Breakfast,200,100,20,Rice;Urud;oil
+20,FishCurry(1),Curry,100,50,60,Fish ;Salt;Spices
+21,FishFry(1),Snack,400,200,60,Fish ;Oil;Spices
+22,GajarHalwa(1),Snack,200,150,53,Carrot;Ghee;Sugar
+23,GreekSalad,Healthy,300,100,600,Tomatoes;Onions;Lemon juice;Cucumber;Olives;Cheese
+24,GreenSalad,Healthy,400,0,200,Romaine Lettuce; Tomato; Cucumber
+25,Hamburger,Fastfood,300,200,640,Hamburger buns;Pickles;Tomatoes;Onions;Ground beef;Lettuce
+26,Jalebi(1),Snack,200,150,93,Flour;Oil;Sugar
+27,KababBarg,Iranian,300,540,800,Onions;Olive oil;Garlic;Saffaron;Fillets of beef tenderloin
+28,Kabobkoobideh,Iranian,200,170,500,Ground beef;Ground lamb;Onions;Rice;Tomatoes
+29,Kapsalon,Healthy,460,50,400,Fries;Shawarma meat;Cheese;Garlic
+30,KoottuCurry,Lunch,100,20,30,Vegitables;Coconut;Salt
+31,LambShank,Arabian,800,900,1780,Lamb shanks;Onions;Rosemary leaves
+32,Lasagna,Italian,500,120,200,Ground beef;Lasagna noodles;Tomato paste;Cheese
+33,Lemonade(1),Snack,20,0,5,Lemon;Water;Sweet
+34,LyonnaisePotatoes,Snack,700,400,1100,Potatoes;Onions;Butter;Parsley
+35,Manchurian(1),Snack,200,100,60,Flower;Oil;Flour
+36,MangoPickle(1),Side,100,20,10,Mango ;Chilli;Oil
+37,Masala,Indian,170,100,640,Chicken;Tomatoes;Curry powder;Ginger;Garlic;Butter;Cream
+38,Murukku(1),Snack,300,200,50,Rice;Oil;Salt
+39,MuttonCurry,Lunch,300,20,30,Mutton ;Spices;Salt
+40,MysorePak(1),Sweet,400,200,30,Wheat;Sugar;egg
+41,NeerDosa(1),Breakfast,20,10,5,Rice;Water;Salt
+42,Noodles,Snack,50,20,30,Noodle;Seseme;Salt
+43,Omelette(1),Snack,30,20,10,Eggs;Tomato;Salt
+44,Omelette,Healthy,400,300,740,Eggs;Butter;Tomatoes;Avocados;Salt
+45,PaneerTikka(1),Snack,150,70,52,Paneer;Masala;Salt
+46,Paratha(1),lunch,400,3,42,Wheat;salt;egg
+47,PavBhaji(1),Snack,200,40,50,Bread;Potato;Salt
+48,Peera,Lunch,100,50,20,Fish ;Coconut;Spices
+49,Pizza,Italian,700,1200,2370,Pizza crust;Olive;Onions;Tomatoes;Cheese
+50,PrawnPasta,Italian,400,130,700,Prawns;Shrimps;Shaped pasta;Onions;Parsley
+51,Pretzel,Snack,350,40,820, Wheat;Salt;Flour
+52,Pulav(1),Lunch,200,20,30,Rice;Veggies;Oil
+53,Puri(1),Breakfast,400,200,30,Wheat;salt;Oil
+54,Rasam(1),soup,100,4,10,Water ;salt;tomato
+55,Rasgulla(1),Snack,200,150,20,Sweet;Flour;water
+56,Rollatini,Italian,800,90,1360,Fish;Egg plant;Flour;Ricotta
+57,SaagPaneer,Indian,130,300,460,Paneer;Spinach;Ginger
+58,Sambar(2),Curry,200,30,40,Water ;Daal;Veggies
+59,Samosa,Snack,100,30,50,Potato;Spices;Salt
+60,ShiraziSalad,Healthy,200,50,410,Tomatoes;Onions;Lemon juice;Cucumber
+61,Tacos,Mexican,290,40,270,Ground beef;Corn tortillas;Cheese;Paprika
+62,Theeyal,Lunch,150,20,50,DrumSticks;Coconut;Water
+63,Tiramisu,Snack,80,20,90,Whipping cream;Cocoa;Ladyfingers
+64,Tzatziki,Healthy,200,170,270,Cucumber;Yogurt;Salt
+65,Upma(2),Breakfast,100,20,30,Rava;salt;Veggies
+66,Uthappam(1),Breakfast,100,50,90,Water ;salt;Rice
+67,Vada(1),Snack,200,100,30,Water ;Daal;Salt
+68,Vattayappam,Breakfast,50,10,10,Rice;Yeast;Salt
+69,VegetableSushi,Seafood,500,30,200,Rice;Nori sheets;Cucumber;Tomatoes;Avocados

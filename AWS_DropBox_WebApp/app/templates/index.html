@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon usage</title>
+</head>
+<style>
+    html,body{
+        padding:0;
+        margin: 0;
+    }
+
+    .info-box{
+        height: auto;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 16px;
+    }
+
+    .app-box{
+        height: auto;
+        border: 1px solid red;
+        padding: 10px;
+        margin: 16px;
+    }
+
+    .image-box{
+        height: auto;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 16px;
+    }
+</style>
+<body>
+<nav>
+  <ul>
+    <li><a href="/retreivefile">Retrieve File</a></li>
+    <li><a href="/rangedfile">Ranged file</a></li>
+
+  </ul>
+</nav>
+<div class="info-box">
+    <img src={{ profileimg }} alt="ProfilePicture" height="200" width="200">
+    <h1> Nishank Bhatnagar</h1>
+    <h2> 1001397098</h2>
+</div>
+<div class="info-box">
+    {% if info %}
+    <h1> {{ info.info_box }}</h1>
+    {% else %}
+    <h1> Welcome to the Application</h1>
+    {% endif %}
+</div>
+<div class="app-box">
+    <h1> Upload File</h1>
+    <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <label> Enter a number(1-99)</label><input type="text" name="number" placeholder="1 - 99">
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+<div class="app-box">
+<h1> Flies Present in Cloud AWS </h1>
+
+<ol>
+{%  for object in keyList %}
+<li>{{ object.name }}  Size: <span>{{ object.size }}</span><b>KB</b> <a href={{ urls[object.name] }}>Download</a> <a
+        href={{ "delete/" + object.name }}> Delete </a></li>
+{% endfor %}
+</ol>
+</div>
+
+<div class="image-box">
+    {% for object in fileList %}
+    <img src={{ imgurl[object.name] }} alt="NotAvailable" height="200" width="200">
+    {% endfor %}
+</div>
+
+
+</body>
+</html>

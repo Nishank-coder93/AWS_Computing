@@ -1,0 +1,9 @@
+
+{#<h1> Flies Present in Cloud </h1>#}
+{##}
+{#<ol>#}
+{#{%  for object in keyList %}#}
+{#<li>{{ object.name }}  Size: <span>{{ object.size }}</span><b>KB</b> <a href={{ urls[object.name] }}>Download</a> <a#}
+{#        href={{ "delete/" + object.name }}> Delete </a></li>#}
+{#{% endfor %}#}
+{#</ol>#}

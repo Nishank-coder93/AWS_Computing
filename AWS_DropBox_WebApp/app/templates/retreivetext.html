@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .app-box{
+        height: auto;
+        border: 1px solid red;
+        padding: 10px;
+        margin: 16px;
+    }
+
+    .filedata{
+        height: auto;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 16px;
+    }
+</style>
+<body>
+<nav>
+  <ul>
+    <li><a href="/index">Home</a></li>
+    <li><a href="/rangedfile">Ranged</a></li>
+
+  </ul>
+</nav>
+<div class="app-box">
+    <form action="" method="post">
+        <input type="text" name="txtfile">
+        <input type="submit" value="Retrieve">
+    </form>
+</div>
+
+<div class="filedata">
+    {{ data }}
+</div>
+</body>
+</html>
